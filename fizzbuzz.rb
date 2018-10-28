@@ -3,11 +3,11 @@
 
 def fizzbuzz(x)
   if ((x % 5 == 0) && (x % 3 == 0))
-    print "fizzbuzz"
+    print "FizzBuzz"
   elsif x % 5 == 0
-    print "buzz"
+    print "Buzz"
   else x % 3 == 0
-    print "fizz"
+    print "Fizz"
   end
 end
 
