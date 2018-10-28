@@ -4,10 +4,8 @@
 def fizzbuzz(x)
   if ((x % 5 == 0) && (x % 3 == 0))
     puts "fizzbuzz"
-  end
   elseif x % 5 == 0
     puts "buzz"
-  end
   elseif x % 3 == 0
     puts "fizz"
   end
