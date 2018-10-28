@@ -8,6 +8,7 @@ def fizzbuzz(int)
     puts "buzz"
   elseif x % 3 == 0
     puts "fizz"
+  end
 end
 
 
