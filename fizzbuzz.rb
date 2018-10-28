@@ -3,7 +3,7 @@
 
 def fizzbuzz(x)
   if ((x % 5 == 0) && (x % 3 == 0))
-    puts "fizzbuzz"
+    print "fizzbuzz"
   elseif x % 5 == 0
     puts "buzz"
   elseif x % 3 == 0
