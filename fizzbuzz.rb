@@ -6,7 +6,7 @@ def fizzbuzz(x)
     print "fizzbuzz"
   elsif x % 5 == 0
     print "buzz"
-  elsif x % 3 == 0
+  else x % 3 == 0
     print "fizz"
   end
 end
