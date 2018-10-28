@@ -4,9 +4,9 @@
 def fizzbuzz(x)
   if ((x % 5 == 0) && (x % 3 == 0))
     print "fizzbuzz"
-  else if x % 5 == 0
+  elsif x % 5 == 0
     print "buzz"
-  else if x % 3 == 0
+  elsif x % 3 == 0
     print "fizz"
   end
 end
